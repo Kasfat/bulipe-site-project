@@ -9,6 +9,9 @@ import OurProgram from "./OurProgram/OurProgram";
 import OurCommunity from "./OurCommunity/OurCommunity";
 import OurPartners from "./OurPartners/OurPartners";
 import Testimonials from "./Testimonials/Testimonials";
+import LatestNews from "./LatestNews/LatestNews";
+import CTASection from "./CTASection/CTASection";
+import Footer from "./Footer/Footer";
 
 const LandingPage = () => {
   return (
@@ -41,6 +44,15 @@ const LandingPage = () => {
 
       {/* Testimonials */}
       <Testimonials />
+
+      {/* LatestNews */}
+      <LatestNews />
+
+      {/* CtaSection */}
+      <CTASection />
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };
