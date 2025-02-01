@@ -6,18 +6,17 @@ function NavbarHead() {
     <>
       <div className="bg-sky-200 py-1 px-4 flex items-center justify-between">
         {/* Left section with logo */}
-        <div className="flex-none">
+        <div className="flex p-4 items-center  gap-8">
           <img src={headImage} alt="100%" className="h-8" />
-        </div>
-
-        {/* Center section with scholarship text in box */}
-        <div className="flex items-center mx-4">
-          <div className=" rounded-md px-3 py-1 flex items-center border border-[#004464]">
-            <p className="text-[#004464] text-sm font-bold">
-              <span className="text-orange-500 font-bold">Scholarship</span> on
-              all <br />
-              of our programs
-            </p>
+          {/* Center section with scholarship text in box */}
+          <div className="flex items-center mx-4">
+            <div className=" rounded-md px-3 py-1 flex items-center border border-[#004464]">
+              <p className="text-[#004464] text-sm font-bold">
+                <span className="text-orange-500 font-bold">Scholarship</span>{" "}
+                on all <br />
+                of our programs
+              </p>
+            </div>
           </div>
         </div>
 

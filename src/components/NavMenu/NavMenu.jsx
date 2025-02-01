@@ -11,7 +11,7 @@ function NavMenu() {
         <div className="flex items-center">
           <img
             src={BrandLogo}
-            style={{ height: "41px", width: "173px" }}
+           
             className="object-contain"
             alt="BULIPE"
           />
