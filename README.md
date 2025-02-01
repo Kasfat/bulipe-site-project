@@ -8,8 +8,8 @@ To get started, clone the repository and install dependencies:
 
 # Clone the repo
 
-git clone <repo-url>
-cd <project-folder>
+git clone repo-url
+cd project-folder
 
 # Install dependencies
 
